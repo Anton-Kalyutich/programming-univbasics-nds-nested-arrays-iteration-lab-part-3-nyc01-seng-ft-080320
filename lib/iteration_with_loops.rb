@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while j < src[i].count do
       
       j += 1
+    end
     i += 1
   end
 end
