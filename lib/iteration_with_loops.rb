@@ -12,4 +12,5 @@ def join_nested_strings(src)
     end
     i += 1
   end
+  my_string
 end
