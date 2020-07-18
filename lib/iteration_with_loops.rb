@@ -4,7 +4,10 @@ def join_nested_strings(src)
   my_string = ""
   i = 0
   while i < src.count do
-    
+    j = 0
+    while j < src[i].count do
+      
+      j += 1
     i += 1
   end
 end
