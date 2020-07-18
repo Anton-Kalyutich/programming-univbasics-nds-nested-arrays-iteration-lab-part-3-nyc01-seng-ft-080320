@@ -7,7 +7,7 @@ def join_nested_strings(src)
     j = 0
     while j < src[i].count do
       if src[i][j].is_a? String
-        my_string += src[i][j]
+        my_string = my_string + src[i][j] + " "
       end
       j += 1
     end
