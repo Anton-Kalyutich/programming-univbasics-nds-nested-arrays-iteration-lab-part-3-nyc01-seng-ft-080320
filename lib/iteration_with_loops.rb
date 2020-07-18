@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while i < src.count do
     j = 0
     while j < src[i].count do
-      
+      if src[i][j].
       j += 1
     end
     i += 1
